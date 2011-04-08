@@ -9,13 +9,13 @@ setup(
     author_email='alex.ehlke@gmail.com',
     url='http://github.com/aehlke/kanjivg',
     license='BSD',
-    packages=find_packages(exclude=['ez_setup']),
-    namespace_packages=[],
+    #packages=find_packages(exclude=['ez_setup']),
+    packages=['kanjivg'],
+    #namespace_packages=[],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'setuptools',
-        'Django',
+        'Django==1.3',
         'lxml',
     ],
 )
