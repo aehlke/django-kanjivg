@@ -1,0 +1,3 @@
+This is a support lib for Manabi. There's some reusable code somewhere in here, but it would need to be decoupled some more from Manabi first.
+
+It's separated into its own lib because it contains a bunch of huge SVG files for kanji (thanks, Kimtaro) that I don't want bundled in with the Manabi repo.
