@@ -1,2 +1,2 @@
 include LICENSE README
-recursive-include *.py *.html *.js *.svg *.xslt
+recursive-include kanjivg *.py *.html *.js *.svg *.xslt
