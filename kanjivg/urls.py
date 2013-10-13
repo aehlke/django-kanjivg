@@ -1,4 +1,4 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 # place app url patterns here
 urlpatterns = patterns('kanjivg.views',
@@ -6,3 +6,4 @@ urlpatterns = patterns('kanjivg.views',
         'frames_json',
         name='kanjivg_frames_json'),
 )
+

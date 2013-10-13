@@ -1,6 +1,7 @@
 from setuptools import find_packages, setup
 import os
 
+
 setup(
     name='django-kanjivg',
     description='KanjiVG support lib for Manabi.',
